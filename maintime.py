@@ -7,9 +7,9 @@ from datetime import datetime, timedelta, timezone
 TAIWAN_TZ = timezone(timedelta(hours=8))
 
 # 從環境變數讀取敏感資訊（或直接在此替換成您的真實資訊）
-TOKEN = os.getenv("TELEGRAM_BOT_TOKEN", "您的真實BOT_TOKEN")
+TOKEN = os.getenv("TELEGRAM_BOT_TOKEN", "8880913686:AAGq7I_wHC1-96Aa2kT6G10xrcvlvj8Wbqw")
 # 頻道 Chat ID 格式通常為 -100xxxxxxxxxx
-CHAT_ID = os.getenv("TELEGRAM_CHAT_ID", "您的真實頻道CHAT_ID")
+CHAT_ID = os.getenv("TELEGRAM_CHAT_ID", "-1001234567890")
 
 def send_hourly_broadcast():
     """執行整點報時發送"""
